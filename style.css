@@ -600,6 +600,11 @@ main hr {
     color: #000021;
 }
 
+.content a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .content button {
     background-color: #000021;
     color: #fff;
