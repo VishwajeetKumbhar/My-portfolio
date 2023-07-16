@@ -133,8 +133,13 @@ main hr {
     transition: 0.5s ease;
 }
 
+.btn a{
+    text-decoration: none;
+    color:#9898e4;
+}
+
 .btn:hover {
-    color: #fff;
+    color: #fff ;
     background-color: #000021;
 }
 
