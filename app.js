@@ -4,7 +4,7 @@ const links = document.querySelectorAll(".nav-item a")
 const activeNav = document.querySelector(".active-nav")
 
 links.forEach(link =>{
-    link.addEventListener('click',(e)=>{
+    link.addEventListener('mouseover',(e)=>{
         // turn nav blue
         gsap.to(links ,{color : " #000021"})
         if(document.activeElement === link){
